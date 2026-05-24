@@ -1,8 +1,9 @@
 {
     "name": "initphp/polyfill-php80",
-    "description": "PHP 8.0 Polyfill",
+    "description": "PHP 8.0 Polyfill (DEPRECATED — PHP 8.0 reached End of Life in November 2023; use symfony/polyfill-php80 if you still target legacy PHP 7.x runtimes.)",
     "type": "library",
     "license": "MIT",
+    "abandoned": "symfony/polyfill-php80",
     "autoload": {
         "files": [
             "init.php"
